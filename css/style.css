@@ -9,7 +9,7 @@
 }
 
 #banner {
-	background: url("https://wallpaperscraft.com/image/coffee_coffee_machine_drink_foam_71144_2048x1152.jpg") no-repeat;
+	background: url("../images/coffee-machine.jpg") no-repeat;
 	background-size: cover;
 }
 
@@ -31,18 +31,23 @@
 	font-size: 1.5em;
 }
 
-.orange {
-	color: #ffdd57;
+.level .card + .card {
+	margin-left: 20px;
 }
 
-.red {
-	color: #ff3860;
+.pricing .pricing-type {
+	text-transform: uppercase;
 }
 
-.blue {
-	color: #3273dc;
+.pricing .pricing-price {
+	font-size: 2.5em;
 }
 
-.turquoise {
-	color: #00d1b2;
+.card-highlight {
+	padding: 1.5em;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin-bottom: 1.5em;
 }
